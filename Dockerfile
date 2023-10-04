@@ -1,3 +1,3 @@
-FROM nginx:alpine
+FROM nginx:alpine #apk nginx
 
-RUN apk --no-cache add curl
+RUN apk --no-cache add curl #nambah apk curl
